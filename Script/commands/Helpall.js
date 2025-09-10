@@ -29,7 +29,7 @@ module.exports.run = async function ({ api, event }) {
  const finalText = `╔═══❖ 🌟 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🌟 ❖═══╗
 ${allCommands.map(cmd => `║ ➔ ${cmd}`).join("\n")}
 ╠═════🔰 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 🔰═════╣
-║ 🤖 𝐁𝐨𝐭: ─꯭─⃝‌𝗞𝗮𝗴𝘂𝘆𝗮 𝗢𝘂𝘁𝘀𝘂𝘁𝗸𝗶
+║ 🤖 𝐁𝐨𝐭: ─꯭─⃝‌𝗞𝗮𝗴𝘂𝘆𝗮 𝗢𝘁𝘀𝘂𝘁𝘀𝘂𝗸𝗶
 ║ 👑 𝐎𝐰𝐧𝐞𝐫: 𝗛𝗿𝗶𝗱𝗼𝘆 𝗛𝗼𝘀𝘀𝗲𝗻
 ║ 📦 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${allCommands.length} 
 ╚═══════════════════════╝`;
